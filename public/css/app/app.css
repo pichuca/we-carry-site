@@ -1,9 +1,29 @@
+/* FONTS */
+@font-face {
+    font-family: DINNRegular;
+    src: url("../../fonts/dinn/DINNextLTPro-Regular.otf");
+}
+@font-face {
+    font-family: DINNLight;
+    src: url("../../fonts/dinn/DINNextLTPro-Light.otf");
+}
+
+html, body {
+  /* TODO: add font family*/
+  font-family: DINNRegular;
+}
+
 /* OVERRIDES */
 
 /* Main Color override */
 .header-content .btn-buynow {
   color: #FFFFFF !important;
   border: 2px solid #FFFFFF !important;
+}
+
+nav.navbar.bootsnav {
+  background-color: #FFFFFF !important;
+  color: #24181A !important;
 }
 
 .banner:before,
@@ -27,7 +47,7 @@ nav.navbar.bootsnav.sticky-header,
 .jumptotop a,
 h4:after,
 p:after  {
-  background: #99CC33 !important; /* with no background opacity. */
+  background: #FFFFFF !important; /* with no background opacity. */
 }
 
 .header-content h2 span,
