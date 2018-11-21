@@ -1,0 +1,32 @@
+{
+  "name": "go-delivery-shipping",
+  "version": "1.0.0",
+  "description": "start up business landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pichuca/go-delivery-shipping.git"
+  },
+  "keywords": [
+    "shipping"
+  ],
+  "author": "sroibon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pichuca/go-delivery-shipping/issues"
+  },
+  "homepage": "https://github.com/pichuca/go-delivery-shipping#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.7",
+    "serve-static": "^1.13.2"
+  }
+}

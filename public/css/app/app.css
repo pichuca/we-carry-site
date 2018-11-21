@@ -1,0 +1,132 @@
+/* OVERRIDES */
+
+/* Main Color override */
+.header-content .btn-buynow {
+  color: #FFFFFF !important;
+  border: 2px solid #FFFFFF !important;
+}
+
+.banner:before,
+.about-facts:before,
+.testimonials:before {
+  background: #2072be !important;
+  opacity: 0.9;
+}
+
+/* Remove image url */
+.testimonials {
+  background: url('');
+}
+
+.buynow-infobar:before {
+  background: #FFFFFF !important;
+}
+
+.preloader,
+nav.navbar.bootsnav.sticky-header,
+.jumptotop a,
+h4:after,
+p:after  {
+  background: #2072be !important; /* with no background opacity. */
+}
+
+.header-content h2 span,
+i,
+.buynow-infobar .section-title p,
+.buynow-infobar .section-title h2,
+.buynow-infobar .buynow-entry p {
+  color: #2072be !important;
+}
+
+.icon-box {
+  border: 1px solid #2072be !important;
+}
+
+.feature-single:hover .icon-box {
+  background: #EEEEEE;
+}
+
+.jumptotop a i {
+  color: #FFFFFF !important;
+}
+
+.btn-buynow {
+  color: #2072be !important;
+  border: 2px solid #2072be !important;
+}
+
+.btn-buynow:hover {
+  color: #FFFFFF !important;
+  background: #2072be !important;
+}
+
+.footer-social a:hover {
+  background: #2072be !important;
+}
+
+.footer-social a:hover ,
+.footer-social a:hover i {
+  color: #FFFFFF !important;
+}
+
+.contactinfo-single h3,
+.contactus .section-title p,
+.btn-contact {
+  color: #2072be !important;
+}
+
+.contactinfo-single i {
+  border: 1px solid #2072be !important;
+}
+
+.btn-contact {
+  border: 2px solid #2072be !important;
+}
+
+.btn-contact:hover {
+  background: #2072be !important;
+  color: #FFFFFF !important;
+}
+
+/* end color overrides */
+
+nav.navbar.bootsnav ul.nav > li > a:after {
+  content: '' !important;
+}
+
+header .navbar-brand {
+  color: #FFF !important;
+  font-size: 28px;
+  font-weight: 300;
+  position: relative;
+  top: 10px;
+}
+
+header .navbar {
+  height: 88px !important;
+}
+
+header .navbar.sticky-header {
+  height: inherit !important;
+}
+
+.footer-info .footer-logo {
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+@media (max-width: 992px) {
+  header .navbar,
+  header .navbar.sticky-header {
+    height: 68px !important;
+  }
+  header .navbar-header i {
+    color: #FFFFFF !important;
+  }
+  nav.navbar.bootsnav .navbar-collapse {
+    background: rgba(32, 114, 190, 0.9) !important;
+  }
+  #navbar-menu {
+    margin-top: 20px;
+  }
+}
