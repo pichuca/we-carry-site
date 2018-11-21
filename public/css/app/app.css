@@ -141,12 +141,14 @@ header .navbar.sticky-header {
     height: 68px !important;
   }
   header .navbar-header i {
-    color: #FFFFFF !important;
+    color: #373737 !important;
+    width: 60px;
+    height: 60px;
   }
   nav.navbar.bootsnav .navbar-collapse {
-    background: rgba(32, 114, 190, 0.9) !important;
+    background: #99CC33 !important;
   }
   #navbar-menu {
-    margin-top: 20px;
+    margin-top: 14px;
   }
 }

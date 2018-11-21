@@ -158,7 +158,7 @@ nav.navbar.bootsnav.sticky-header{
 }
 
 nav.navbar.bootsnav.sticky-header .navbar-brand{
-	padding-top: 15px;
+	padding-top: 8px;
 }
 
 nav.navbar.bootsnav.sticky-header ul.nav > li > a{
@@ -1231,9 +1231,13 @@ footer{
 	}
 
 	nav.navbar.bootsnav.sticky-header .navbar-brand,
-	nav.navbar.bootsnav .navbar-brand{
+	nav.navbar.bootsnav .navbar-brand {
 		display: block;
-		padding: 14px 0 13px;
+		padding: 10px 0 13px;
+	}
+
+	nav.navbar.bootsnav .navbar-brand img {
+		width: 115px;
 	}
 
 	nav.navbar.bootsnav .navbar-collapse{
@@ -1244,15 +1248,14 @@ footer{
 
 	nav.navbar.bootsnav .navbar-toggle{
 		background: none;
-		height: 36px;
-		width: 36px;
-		color: #fff;
+		height: 60px;
+		width: 60px;
 		margin: 0;
-		border: 1px solid #fff;
+		border: none;
 		border-radius: 0;
 		position: absolute;
 		right: 0;
-		top: 16px;
+		top: 5px;
 	}
 
 	nav.navbar.bootsnav .navbar-nav{
@@ -1317,7 +1320,7 @@ footer{
 
 	nav.navbar.bootsnav.sticky-header .navbar-brand,
 	nav.navbar.bootsnav .navbar-brand{
-		padding-left: 15px;
+		padding-left: 25px;
 		padding-right: 15px;
 	}
 
