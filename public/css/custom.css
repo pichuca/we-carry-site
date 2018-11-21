@@ -121,7 +121,7 @@ nav.navbar.bootsnav{
 
 .navbar-brand{
 	height: auto;
-	padding: 25px 15px 0;
+	padding: 18px 15px 0;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -132,7 +132,6 @@ nav.navbar.bootsnav{
 nav.navbar.bootsnav ul.nav > li > a{
 	font-size: 14px;
 	font-weight: 300;
-	text-transform: uppercase;
 	color: #24181A;
 	padding: 40px 0px 36px;
 	line-height: 1em;
