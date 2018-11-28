@@ -176,7 +176,7 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 	width: 100%;
 	background: url(../images/header-bg.jpg) no-repeat center center fixed;
 	background-size: cover;
-	padding: 100px 0 200px;
+	padding: 100px 0 70px;
 }
 
 .banner:before{
