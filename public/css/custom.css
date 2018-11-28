@@ -130,7 +130,7 @@ nav.navbar.bootsnav{
 }
 
 nav.navbar.bootsnav ul.nav > li > a{
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: 300;
 	color: #24181A;
 	padding: 40px 0px 36px;
@@ -199,26 +199,30 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 	padding-top: 20px;
 }
 
+.header-content h1 {
+	font-size: 64px;
+	color: #99CC33;
+	font-family: DINNLight;
+}
+
 .header-content h2{
 	font-size: 46px;
-	color: #fff;
+	color: #24181A;
 	font-weight: 500;
 	line-height: 1.2em;
 	margin-bottom: 0.6em;
 }
 
 .header-content h2 span {
-    background: #fff;
     color: #20bea7;
     text-transform: uppercase;
-    font-size: 32px;
-    padding: 6px 14px;
+    font-size: 30px;
 }
 
 .header-content p{
-	color: #fff;
+	color: #666464;
 	line-height: 1.5em;
-	font-size: 14px;
+	font-size: 18px;
 	letter-spacing: 0.04em;
 	margin-bottom: 1.8em;
 }
@@ -1334,11 +1338,11 @@ footer{
 	}
 
 	.banner{
-		padding: 140px 0 160px;
+		padding: 200px 0 160px;
 	}
 
 	.header-content{
-		text-align: center;
+		text-align: left;
 		margin-bottom: 60px;
 	}
 

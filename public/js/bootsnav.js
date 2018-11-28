@@ -266,6 +266,8 @@
                     // Megamenu style
                     $(".megamenu-fw", this).each(function(){
                         $(".col-menu", this).each(function(){
+                            $('.open-menu').toggle();
+                            $('.close-menu').toggle();
                             $(".content", this).addClass("animated");
                             $(".content", this).stop().fadeOut();
                             $(".title", this).off("click");
@@ -290,8 +292,6 @@
                     $(".col-menu", this).removeClass("on");
                     $(".col-menu .content", this).stop().fadeOut();
                     $(".col-menu .content", this).removeClass(getIn);
-                    $('.close-menu').toggle();
-                    $('.open-menu').toggle();
                 }
                 
                 // Hidden om mouse leave
