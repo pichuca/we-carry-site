@@ -5,7 +5,8 @@ body {
 /* Main Color override */
 .header-content .btn-buynow {
   color: #FFFFFF !important;
-  border: 2px solid #FFFFFF !important;
+  border: none !important;
+  background: #9ACB33 !important;
 }
 
 .banner:before,

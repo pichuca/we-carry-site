@@ -241,20 +241,31 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 	transition: all 0.1s linear;
 }
 
-.btn-buynow:hover{
-	background: #20bea7;
-	color: #fff;
-}
-
 .header-content .btn-buynow{
-	color: #fff;
-	border: 2px solid #fff;
-	margin-top: 20px;
+    border-width: 0 !important;
+    border-style: none !important;	
+    border-image: none !important;
+    background: #9ACB33 !important;
+    text-transform: lowercase;
+    font-size: 20px;
+    border: none !important;
 }
 
-.header-content .btn-buynow:hover{
-	background: #fff;
-	color: #20bea7;
+.header-content .btn-buynow.know-more {
+	width :240px;
+	text-align: center;
+    border-width: 0 !important;
+    border-style: none !important;	
+    border-image: none !important;
+    background: #9ACB33 !important;
+    text-transform: lowercase;
+    font-size: 20px;
+    border: none !important;
+}
+
+.header-content .btn-buynow.know-more:hover{
+	background: #24181A !important;
+	color: #fff !important;
 }
 
 .slider-image{
