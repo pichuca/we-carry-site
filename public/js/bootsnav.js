@@ -290,6 +290,8 @@
                     $(".col-menu", this).removeClass("on");
                     $(".col-menu .content", this).stop().fadeOut();
                     $(".col-menu .content", this).removeClass(getIn);
+                    $('.close-menu').toggle();
+                    $('.open-menu').toggle();
                 }
                 
                 // Hidden om mouse leave
@@ -376,7 +378,7 @@
                         $("a.dropdown-toggle", this).off('click');
                         $("a.dropdown-toggle", this).on('click', function (e) {
                             e.stopPropagation();
-                        }); 
+                        });
 
                         $(".megamenu-fw", this).each(function(){
                             $(".title", this).off("click");

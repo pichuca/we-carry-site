@@ -154,6 +154,12 @@ header .navbar.sticky-header {
   #navbar-menu {
     margin-top: 14px;
   }
+  #navbar-menu .open-menu {
+    display: block !important;
+  }
+  #navbar-menu .close-menu {
+    display: none !important ;
+  }
   nav.navbar.bootsnav ul.nav > li > a {
     color: #FFF;
   }

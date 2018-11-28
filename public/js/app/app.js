@@ -21,4 +21,8 @@
   trackingButton.addEventListener('click', onTrackingClick, false);
   submitContactFormButton.addEventListener('submit', onSubmitContactForm, false);
 
+  // Mobile menu image handling
+  $('.open-menu').show();
+  $('.close-menu').hide();
+
 })(window, document, jQuery);
