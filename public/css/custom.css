@@ -176,7 +176,7 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 	width: 100%;
 	background: url(../images/header-bg.jpg) no-repeat center center fixed;
 	background-size: cover;
-	padding: 180px 0 200px;
+	padding: 100px 0 200px;
 }
 
 .banner:before{
@@ -210,7 +210,6 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 	color: #24181A;
 	font-weight: 500;
 	line-height: 1.2em;
-	margin-bottom: 0.6em;
 }
 
 .header-content h2 span {
@@ -1349,7 +1348,7 @@ footer{
 	}
 
 	.banner{
-		padding: 200px 0 160px;
+		padding: 100px 0 160px;
 	}
 
 	.header-content{
