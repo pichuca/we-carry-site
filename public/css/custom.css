@@ -130,7 +130,7 @@ nav.navbar.bootsnav{
 }
 
 nav.navbar.bootsnav ul.nav > li > a{
-	font-size: 14px;
+	font-size: 24px;
 	font-weight: 300;
 	color: #24181A;
 	padding: 40px 0px 36px;
@@ -150,7 +150,7 @@ nav.navbar.bootsnav ul.nav > li:last-child a:after{
 }
 
 nav.navbar.bootsnav ul.nav > li.active > a{
-	color: #000;
+	color: #55565B;
 }
 
 nav.navbar.bootsnav.sticky-header{

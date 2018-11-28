@@ -1018,7 +1018,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav.no-full .navbar-collapse{
-        max-height: 350px;
+        max-height: 410px;
         overflow-y: auto !important;
     }
     

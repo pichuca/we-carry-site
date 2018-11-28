@@ -1,7 +1,7 @@
 /*
 * Window.
 */
-(function(win, doc) {
+(function(win, doc, $) {
   var trackingButton = queryElement('.tracking');
   var submitContactFormButton = queryElement('.btn-contact');
 
@@ -21,4 +21,4 @@
   trackingButton.addEventListener('click', onTrackingClick, false);
   submitContactFormButton.addEventListener('submit', onSubmitContactForm, false);
 
-})(window, document);
+})(window, document, jQuery);

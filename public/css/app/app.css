@@ -26,11 +26,14 @@ nav.navbar.bootsnav {
   color: #24181A !important;
 }
 
+nav.navbar.bootsnav.displayed {
+  background: #99CC33 !important;
+}
+
 .banner:before,
 .about-facts:before,
 .testimonials:before {
-  background: #99CC33 !important;
-  opacity: 0.9;
+  background: #F1F3F0 !important;
 }
 
 /* Remove image url */
@@ -150,5 +153,8 @@ header .navbar.sticky-header {
   }
   #navbar-menu {
     margin-top: 14px;
+  }
+  nav.navbar.bootsnav ul.nav > li > a {
+    color: #FFF;
   }
 }

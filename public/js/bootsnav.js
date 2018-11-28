@@ -461,6 +461,7 @@
                         $(getId).addClass(getIn);
                         return false;
                     });
+
                     
                     $("li.close-full-menu").on("click", function(e){
                         e.preventDefault();
@@ -468,10 +469,12 @@
                         setTimeout(function(){
                             $(getId).removeClass("in");
                             $(getId).removeClass(getIn);
+                            $(".navbar .navbar-default").removeClass("full");
                         }, 500);
                         return false;
                     });
                 });
+
             }
         },
         
