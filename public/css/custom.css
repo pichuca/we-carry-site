@@ -716,15 +716,15 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 	background: #fff;
 }
 
-.testimonials-slider{
-	padding-top: 50px;
+.testimonials-slider .testimonial-slide{
+	padding: 20px;
+	position: relative;
+	text-align: center;
 }
 
-.testimonials-slider .testimonial-slide{
-	background: #fff;
-	padding: 60px 30px 30px;
-	position: relative;
-	border-radius: 2px;
+.testimonial-slider .swipe-text {
+    margin: 30px auto;
+    max-width: 280px;
 }
 
 .author-info{
@@ -744,9 +744,7 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 }
 
 .testimonial-entry h4{
-	font-size: 14px;
-	font-weight: 500;
-	color: #263238;
+	color: #99CA3C;
 	margin: 20px 0 0;
 }
 
@@ -757,9 +755,8 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 }
 
 .testimonial-entry p{
-	font-size: 13px;
 	line-height: 1.5em;
-	color: #546E7A;
+	color: #424242;
 }
 
 .testimonial-pagination{
