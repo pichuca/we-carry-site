@@ -18,7 +18,9 @@
   }
 
   // Event listeners
-  trackingButton.addEventListener('click', onTrackingClick, false);
+  if (trackingButton) {
+    trackingButton.addEventListener('click', onTrackingClick, false);
+  }
   submitContactFormButton.addEventListener('submit', onSubmitContactForm, false);
 
   // Mobile menu image handling

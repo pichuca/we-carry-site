@@ -45,6 +45,25 @@ nav.navbar.bootsnav.displayed {
   background: #F1F3F0 !important;
 }
 
+#features {
+  background-color: #99CC33;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#features h2 {
+  margin: 40px 0 40px;
+  font-size: 30px;
+}
+
+#features p {
+  padding: 0 50px;
+}
+
+#features .truck-image {
+  margin-top: 40px;
+}
+
 /* Remove image url */
 .testimonials {
   background: url('');
@@ -163,12 +182,12 @@ header .navbar.sticky-header {
   #navbar-menu {
     margin-top: 14px;
   }
-  #navbar-menu .open-menu {
+/*  #navbar-menu .open-menu {
     display: block !important;
   }
   #navbar-menu .close-menu {
     display: none !important ;
-  }
+  }*/
   nav.navbar.bootsnav ul.nav > li > a {
     color: #FFF;
   }

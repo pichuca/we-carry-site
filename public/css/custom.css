@@ -322,12 +322,15 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 .section-title{
 	text-align: center;
 	margin-bottom: 80px;
+	margin-top: 60px;
 }
 
 .section-title h2{
 	color: #263238;
 	font-size: 40px;
 	font-weight: 400;
+	margin-top: 40px;
+	font-family: DINNLight;
 }
 
 .section-title p{
