@@ -45,6 +45,10 @@ nav.navbar.bootsnav.displayed {
   background: #F1F3F0 !important;
 }
 
+#about {
+  background-color: #FFFFFF;
+}
+
 #features {
   background-color: #99CC33;
   text-align: center;

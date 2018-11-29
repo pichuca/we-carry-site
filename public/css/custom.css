@@ -705,7 +705,11 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 }
 
 .testimonials .section-title h2{
-	color: #fff;
+	color: #666464;
+}
+
+.testimonials h2.sub {
+	color: #92BC2A;
 }
 
 .testimonials .section-title p{
