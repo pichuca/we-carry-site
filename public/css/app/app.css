@@ -166,6 +166,11 @@ header .navbar.sticky-header {
   font-weight: 300;
 }
 
+.swiper-pagination-bullet-active {
+  background: #99CC33 !important;
+  border: none !important;
+}
+
 @media (max-width: 992px) {
   header .navbar,
   header .navbar.sticky-header {
