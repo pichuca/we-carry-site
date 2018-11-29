@@ -250,7 +250,8 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
     border: none !important;
 }
 
-.header-content .btn-buynow.know-more {
+.header-content .btn-buynow.know-more,
+.testimonials .btn-buynow.know-more {
 	width :240px;
 	text-align: center;
     border-width: 0 !important;
@@ -260,6 +261,7 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
     text-transform: lowercase;
     font-size: 20px;
     border: none !important;
+    color: #FFFFFF !important;
 }
 
 .header-content .btn-buynow.know-more:hover{
