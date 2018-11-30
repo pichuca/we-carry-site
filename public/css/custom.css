@@ -345,18 +345,6 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 	letter-spacing: 0.1em;
 }
 
-.section-title p:after{
-	content: '';
-	display: block;
-	width: 30px;
-	height: 1px;
-	margin-left: -15px;
-	background: #20bea7;
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-}
-
 .features{
 	padding: 30px 0;
 }
@@ -708,6 +696,7 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 
 .testimonials .section-title h2{
 	color: #666464;
+	font-weight: 800;
 }
 
 .testimonials h2.sub {
@@ -993,7 +982,7 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 }
 
 .btn-subscribe:hover{
-	background: #263238;
+	background-color: #263238 !important;
 }
 
 .btn-subscribe:focus{
@@ -1046,21 +1035,26 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 /****************************************/
 
 .contactus{
-	background: #263238;
-	padding: 100px 0 60px;
+	background: url("../../images/svg/background.svg");
+	background-size: 100%;
+	padding: 0 0 60px;
+	text-align: center;
 }
 
 .contactus .section-title{
-	text-align: left;
+	text-align: center;
 	margin-bottom: 40px;
 }
 
-.contactus .section-title h2{
-	color: #fff;
+.contactus .section-title h2,
+.contactus .section-title .contact-title {
+	color: #fff !important;
 }
 
-.contactus .section-title p{
-	color: #20bea7;
+.contactus .section-title .contact-title {
+	font-size: 24px;
+	text-transform: capitalize;
+	font-weight: 800;
 }
 
 .contactus .section-title p:after{
@@ -1068,11 +1062,12 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 	margin-left: 0;
 }
 
+
 .contact-form .form-control{
 	border: none;
-	border-radius: 0;
-	background: rgba(255,255,255,0.05);
-	color: #fff;
+	border-radius: 5px;
+	/*background: #fff;*/
+	color: #A8A8A8;
 	font-size: 13px;
 	font-weight: 300;
 	height: auto;
@@ -1082,44 +1077,47 @@ nav.navbar.bootsnav.sticky-header ul.nav > li > a{
 	resize: none;
 }
 
+#contactus .btn-contact {
+	-webkit-tap-highlight-color: rgb(0, 0, 0, 1);
+}
+
 .contact-form .form-control::-webkit-input-placeholder{
-	color: white;
+	color: #A8A8A8;
 }
 
 .contact-form .form-control:-moz-placeholder{
-	color: white;
+	color: #A8A8A8;
 }
 
 .contact-form .form-control::-moz-placeholder {
-	color: white;
+	color: #A8A8A8;
 }
 
 .contact-form .form-control:-ms-input-placeholder{
-	color: white;
+	color: #A8A8A8;
 }
 
 .contact-form .form-control::-ms-input-placeholder{
-	color: white;
+	color: #A8A8A8;
 }
 
-.btn-contact{
+.btn-contact {
+	width: 300px;
 	position: relative;
     display: inline-block;
-    color: #20bea7;
-    border-radius: 3px;
-	background: none;
+    color: #FFFFFF !important;
+    border-radius: 5px;
     border: 2px solid #20bea7;
     padding: 10px 30px 8px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 800;
     letter-spacing: 0.04em;
-    text-transform: uppercase;
-    transition: all 0.1s linear;
+    opacity: 1 !important;
 }
 
-.btn-contact:hover{
-	background: #20bea7;
-	color: #fff;
+.btn-contact:hover {
+	background: #A8A8A8 !important;
+	color: #FFFFFF !important;
 }
 
 .footer-info{
@@ -1444,6 +1442,10 @@ footer{
 	.btn-subscribe{
 		width: 100%;
 		border-radius: 40px;
+	}
+	
+	.btn-contact {
+		width: 100%
 	}
 }
 

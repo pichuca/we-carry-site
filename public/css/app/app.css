@@ -138,11 +138,6 @@ i,
   border: 2px solid #99CC33 !important;
 }
 
-.btn-contact:hover {
-  background: #99CC33 !important;
-  color: #FFFFFF !important;
-}
-
 /* end color overrides */
 
 nav.navbar.bootsnav ul.nav > li > a:after {
@@ -173,6 +168,42 @@ header .navbar.sticky-header {
 .swiper-pagination-bullet-active {
   background: #99CC33 !important;
   border: none !important;
+}
+
+#testimonios {
+  background-color: #FFFFFF !important;
+  background: #FFFFFF !important;
+}
+
+#testimonios h2 {
+  font-weight: 800;
+  color: #666464;
+}
+
+#testimonios .testimonial-slide {
+  background-color: #F1F3F0;
+  border-left: 8px solid #99CC33;
+  margin-bottom: 20px;
+}
+
+#testimonios p.words,
+#testimonios p.author {
+    color: #6D6D6D;
+    text-align: left;
+    max-width: 90%;
+    margin: 10px 0 0;
+}
+
+#testimonios p.words {
+  font-size: 24px;
+}
+
+#tesimonios p.author {
+  font-size: 20px !important;
+}
+
+#testimonios p.author span.testimonios-name {
+  color: #99CC33;
 }
 
 @media (max-width: 992px) {
