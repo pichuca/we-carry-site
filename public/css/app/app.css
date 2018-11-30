@@ -234,6 +234,10 @@ footer.desktop .footer-siteinfo {
   padding-top: 23px;
 }
 
+header .mobile-socials {
+  display: none;
+}
+
 @media (max-width: 992px) {
   header .navbar,
   header .navbar.sticky-header {
@@ -246,6 +250,22 @@ footer.desktop .footer-siteinfo {
   }
   nav.navbar.bootsnav .navbar-collapse {
     background: #99CC33 !important;
+  }
+  header .mobile-socials {
+    display: block !important;
+    color : #FFFFFF;
+    padding: 30px 0 30px 0px;
+  }
+  header .mobile-socials img {
+    width: 30px;
+    height: 30px;
+  }
+  header .mobile-socials .social div.fb {
+    margin-left: 0;
+  }
+  header .mobile-socials .insta,
+  header .mobile-socials .youtube {
+    margin-left: 40px;
   }
   #navbar-menu {
     margin-top: 14px;
