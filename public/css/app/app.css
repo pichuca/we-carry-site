@@ -206,6 +206,34 @@ header .navbar.sticky-header {
   color: #99CC33;
 }
 
+.social {
+  display: inline-flex;
+}
+
+.social div {
+  margin: 0 20px 20px;
+}
+
+footer {
+  display: none;
+}
+
+footer.desktop {
+  display: block;
+}
+
+footer.desktop .logo-wrapper,
+footer.desktop .footer-siteinfo,
+footer.desktop .social {
+  float: left;
+  text-align: center;
+  width: 33.33%;
+}
+
+footer.desktop .footer-siteinfo {
+  padding-top: 23px;
+}
+
 @media (max-width: 992px) {
   header .navbar,
   header .navbar.sticky-header {
@@ -230,6 +258,12 @@ header .navbar.sticky-header {
   }*/
   nav.navbar.bootsnav ul.nav > li > a {
     color: #FFF;
+  }
+  footer.desktop {
+    display: none;
+  }
+  footer {
+    display: block;
   }
 }
 
