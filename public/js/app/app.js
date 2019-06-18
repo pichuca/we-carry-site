@@ -3,7 +3,11 @@
 */
 (function(win, doc, $) {
   var trackingButton = queryElement('.tracking');
-  var submitContactFormButton = queryElement('.btn-contact');
+  // var submitContactFormButton = queryElement('.btn-contact');
+  var copyrightyear = $('#copyright-year');
+  var d = new Date();
+  var year = d.getFullYear();
+  copyrightyear.text(year);
 
   function queryElement(selector) {
     return doc.querySelector(selector);
@@ -21,7 +25,7 @@
   if (trackingButton) {
     trackingButton.addEventListener('click', onTrackingClick, false);
   }
-  submitContactFormButton.addEventListener('submit', onSubmitContactForm, false);
+  // submitContactFormButton.addEventListener('submit', onSubmitContactForm, false);
 
   // Mobile menu image handling
   $('.open-menu').show();
